@@ -1,12 +1,21 @@
+/* Fondo general */
 body {
-    background-color: #f5f5f5;
+  background-color: #bb2e2e;
 }
 
-.carousel img {
-    max-height: 500px;
-    object-fit: cover;
-}
-
+/* Título */
 h2 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+/* Carrusel más grande y centrado */
+.carousel {
+  max-width: 900px;   /* aumentamos el ancho máximo */
+  margin: 0 auto;     /* centrado */
+}
+
+/* Ajuste de altura de las imágenes */
+.carousel-item img {
+  height: 500px;       /* altura más grande */
+  object-fit: contain; /* mantiene proporciones sin recortar */
 }
