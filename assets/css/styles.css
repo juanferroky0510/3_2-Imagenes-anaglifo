@@ -19,3 +19,16 @@ h2 {
   height: 500px;       /* altura más grande */
   object-fit: contain; /* mantiene proporciones sin recortar */
 }
+
+/* Footer fijo abajo */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;          /* ocupa todo el ancho */
+  background-color: #212529; /* mismo color que tu navbar */
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
